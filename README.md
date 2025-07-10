@@ -1,6 +1,6 @@
 # TLIAS Management System
 
-A full-stack educational management system built with **Spring Boot** and **Vue.js**, inspired by the Black Horse Programmer's JavaWeb 2025 curriculum project.
+A full-stack educational management system built with **Spring Boot** and **Vue.js**, inspired by the itheima JavaWeb 2025 curriculum project.
 
 This project implements core admin functionalities including employee management, department control, login system, and smart logging, with AI-assisted development integrated throughout the pipeline.
 
