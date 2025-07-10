@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: tlias-web-management
+  #mysql连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 这里的mysql指的是docker里的容器名字
+    url: jdbc:mysql://mysql:3306/tlias
+    username: root
+    password: 1234
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # camel name mapping
+    map-underscore-to-camel-case: true
+  #spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+

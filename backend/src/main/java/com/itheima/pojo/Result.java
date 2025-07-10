@@ -1,13 +1,14 @@
 package com.itheima.pojo;
 
 import lombok.Data;
+
 import java.io.Serializable;
 
 /**
  * 后端统一返回结果
  */
 @Data
-public class Result {
+public class  Result {
 
     private Integer code; //编码：1成功，0为失败
     private String msg; //错误信息
