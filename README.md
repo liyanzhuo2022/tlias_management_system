@@ -1,34 +1,49 @@
-# TLIAS Management System
+# **TLIAS Management System**
 
-A full-stack educational management system built with **Spring Boot** and **Vue.js**, inspired by the itheima JavaWeb 2025 curriculum project.
+A lightweight full-stack **employee & department management system** built with **Spring Boot** and **Vue 3**, inspired by the Heima JavaWeb curriculum.
 
-This project implements core admin functionalities including employee management, department control, login system.
+The project demonstrates end-to-end development with a clear frontend–backend separation, standard REST API design, JWT authentication, and clean administrative workflows.
 
-## 📦 Tech Stack
+---
 
-**Backend:**
-- Java 17 + Spring Boot
+## **📦 Tech Stack**
+
+### **Backend**
+
+- Java 17
+- Spring Boot (Web, Validation, AOP)
 - MyBatis + MySQL
-- Maven + RESTful APIs
-- AOP logging + JWT Authentication
+- JWT Authentication
+- Global Exception Handling
+- Maven multi-environment build
 
-**Frontend:**
-- Vue 3 + Vue Router + Element Plus
-- Axios for API integration
-- Role-based routing and dynamic table rendering
+### **Frontend**
 
-## 🚀 Features
+- Vue 3 + Vite
+- Vue Router
+- Element Plus UI
+- Axios for API requests
+- Role-based routing & dynamic tables
 
-- ✅ Employee CRUD
-- ✅ Department Management
-- ✅ Login & Logout
-- ✅ Unified logging with AOP
-- ✅ Global Exception Handling
-- ✅ Smart filtering & pagination
-- ✅ Frontend/backend separation
+---
 
-## 📁 Project Structure
+## **🚀 Features**
 
+- **Employee Management** (CRUD, filtering, pagination)
+- **Department Management**
+- **Login & Logout** (JWT-based)
+- **Unified Logging** with Spring AOP
+- **Global Exception Handling**
+- **Decoupled Frontend/Backend Architecture**
+- **RESTful API with clear DTO/VO separation**
+
+---
+
+## **📁 Project Structure**
+
+```
 tlias-project/
-├── backend/ # Spring Boot source code
-├── frontend/ # Vue.js source code
+├── backend/     # Spring Boot application (controllers, services, mappers)
+└── frontend/    # Vue 3 admin dashboard
+
+```
